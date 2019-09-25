@@ -14,7 +14,7 @@ namespace Hw2_P76084300_施逢怡
             Random ranObj = new Random();
             int ranNo ;
 
-            //problem1-1
+            //problem 1-1
             for (int i=0 ; i <15; i++)        
             {
                 ranNo = ranObj.Next(-100, 100);
@@ -25,15 +25,15 @@ namespace Hw2_P76084300_施逢怡
                 data1[i] = ranNo;
             }
 
-            //problem1-2
+            //problem 1-2
             int[] data2 = (int[])data1.Clone();
             Array.Sort(data2);
 
-            //problem1-3
+            //problem 1-3
             int[] data3 = (int[])data2.Clone();
             Array.Reverse(data3);
 
-            //problem1-4
+            //problem 1-4
             int[] data4 = new int[15];
             for(int i=0; i<14; i+=2)
             {
@@ -43,28 +43,30 @@ namespace Hw2_P76084300_施逢怡
             }
             data4[data4.Length-1] = data3[7];
 
-            //print result
+            //print problem 1 result
             PrintArray(data1,1);
             PrintArray(data2,2);
             PrintArray(data3,3);
             PrintArray(data4,4);
+            Console.WriteLine();
 
-            //problem2
+            //problem 2
             Console.Write("請輸入本金： ");
             int principal = int.Parse(Console.ReadLine());
             Console.Write("請輸入年利率(%): ");
-            float rate = float.Parse(Console.ReadLine());
+            double rate = double.Parse(Console.ReadLine());
+            rate = rate / 100;
             Console.Write("請輸入存款年數： ");
             int year = int.Parse(Console.ReadLine());
-            Console.Write(principal+" "+rate +" " + year +"\n");
 
-            float result = CompoundInterest(principal, rate, year);
-            Console.WriteLine(result);
+            double result = CompoundInterest(principal, rate, year);
+            string solution = (result*principal).ToString("#");     //本金*遞迴的利率結果
+            Console.Write("本利和為："+ solution);
 
             Console.Read();
         }
 
-        //檢查是否重複,是return true, 否return false
+        //檢查矩陣是否重複,是return true, 否return false
         private static bool IsRepeat(int tmp, int[] arr)
         {
             foreach(var item in arr)
@@ -77,6 +79,7 @@ namespace Hw2_P76084300_施逢怡
             return false;
         }
 
+        //print problem 1's solution
         private static void PrintArray(int[] arr, int number)
         {
             Console.Write("{0}: ", number);
@@ -87,13 +90,14 @@ namespace Hw2_P76084300_施逢怡
             Console.WriteLine();
         }
 
-        private static float CompoundInterest(int principal, float rate, int year)
+        //calculate the rate(Recursive)
+        private static double CompoundInterest(int principal, double rate, int year)
         {
-            float result;
+            double result_rate;
             if (year < 1)
                 return 1;
-            result = CompoundInterest(principal, rate, year - 1) * (1 + (rate/100));
-            return result;
+            result_rate = (1 + (rate)) * CompoundInterest(principal, rate, year - 1);
+            return result_rate;
         }
     }
 }
