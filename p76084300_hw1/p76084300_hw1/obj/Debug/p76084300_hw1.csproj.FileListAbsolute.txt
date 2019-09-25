@@ -1,0 +1,7 @@
+C:\Users\d1227\Documents\visualStudio\p76084300_hw1\p76084300_hw1\obj\Debug\p76084300_hw1.csprojAssemblyReference.cache
+C:\Users\d1227\Documents\visualStudio\p76084300_hw1\p76084300_hw1\obj\Debug\p76084300_hw1.csproj.CoreCompileInputs.cache
+C:\Users\d1227\Documents\visualStudio\p76084300_hw1\p76084300_hw1\bin\Debug\p76084300_hw1.exe.config
+C:\Users\d1227\Documents\visualStudio\p76084300_hw1\p76084300_hw1\bin\Debug\p76084300_hw1.exe
+C:\Users\d1227\Documents\visualStudio\p76084300_hw1\p76084300_hw1\bin\Debug\p76084300_hw1.pdb
+C:\Users\d1227\Documents\visualStudio\p76084300_hw1\p76084300_hw1\obj\Debug\p76084300_hw1.exe
+C:\Users\d1227\Documents\visualStudio\p76084300_hw1\p76084300_hw1\obj\Debug\p76084300_hw1.pdb
