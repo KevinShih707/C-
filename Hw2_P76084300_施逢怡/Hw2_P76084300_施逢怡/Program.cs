@@ -14,7 +14,7 @@ namespace Hw2_P76084300_施逢怡
             Random ranObj = new Random();
             int ranNo ;
 
-            //1-1
+            //problem1-1
             for (int i=0 ; i <15; i++)        
             {
                 ranNo = ranObj.Next(-100, 100);
@@ -25,15 +25,15 @@ namespace Hw2_P76084300_施逢怡
                 data1[i] = ranNo;
             }
 
-            //1-2
+            //problem1-2
             int[] data2 = (int[])data1.Clone();
             Array.Sort(data2);
 
-            //1-3
+            //problem1-3
             int[] data3 = (int[])data2.Clone();
             Array.Reverse(data3);
 
-            //1-4
+            //problem1-4
             int[] data4 = new int[15];
             for(int i=0; i<14; i+=2)
             {
@@ -48,6 +48,19 @@ namespace Hw2_P76084300_施逢怡
             PrintArray(data2,2);
             PrintArray(data3,3);
             PrintArray(data4,4);
+
+            //problem2
+            Console.Write("請輸入本金： ");
+            int principal = int.Parse(Console.ReadLine());
+            Console.Write("請輸入年利率(%): ");
+            float rate = float.Parse(Console.ReadLine());
+            Console.Write("請輸入存款年數： ");
+            int year = int.Parse(Console.ReadLine());
+            Console.Write(principal+" "+rate +" " + year +"\n");
+
+            float result = CompoundInterest(principal, rate, year);
+            Console.WriteLine(result);
+
             Console.Read();
         }
 
@@ -72,6 +85,15 @@ namespace Hw2_P76084300_施逢怡
                 Console.Write(item+" ");
             }
             Console.WriteLine();
+        }
+
+        private static float CompoundInterest(int principal, float rate, int year)
+        {
+            float result;
+            if (year < 1)
+                return 1;
+            result = CompoundInterest(principal, rate, year - 1) * (1 + (rate/100));
+            return result;
         }
     }
 }
