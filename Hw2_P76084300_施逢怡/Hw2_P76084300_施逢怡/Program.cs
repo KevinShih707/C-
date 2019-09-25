@@ -10,19 +10,44 @@ namespace Hw2_P76084300_施逢怡
     {
         static void Main(string[] args)
         {
-            int[] data = new int[15];
+            int[] data1 = new int[15];
             Random ranObj = new Random();
             int ranNo ;
+
+            //1-1
             for (int i=0 ; i <15; i++)        
             {
                 ranNo = ranObj.Next(-100, 100);
-                while(IsRepeat(ranNo, data))
+                while(IsRepeat(ranNo, data1))
                 {
                     ranNo = ranObj.Next(-100, 100);
                 }
-                data[i] = ranNo;
+                data1[i] = ranNo;
             }
-            PrintArray(data,1);
+
+            //1-2
+            int[] data2 = (int[])data1.Clone();
+            Array.Sort(data2);
+
+            //1-3
+            int[] data3 = (int[])data2.Clone();
+            Array.Reverse(data3);
+
+            //1-4
+            int[] data4 = new int[15];
+            for(int i=0; i<14; i+=2)
+            {
+                int j = i / 2;
+                data4[i] = data3[j];
+                data4[i + 1] = data2[j];
+            }
+            data4[data4.Length-1] = data3[7];
+
+            //print result
+            PrintArray(data1,1);
+            PrintArray(data2,2);
+            PrintArray(data3,3);
+            PrintArray(data4,4);
             Console.Read();
         }
 
@@ -46,6 +71,7 @@ namespace Hw2_P76084300_施逢怡
             {
                 Console.Write(item+" ");
             }
+            Console.WriteLine();
         }
     }
 }
