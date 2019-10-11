@@ -14,7 +14,7 @@ namespace Problem2_area
             double length = double.Parse(Console.ReadLine());
             Console.Write("請輸入寬-->");
             double width = double.Parse(Console.ReadLine());
-            Console.WriteLine("矩形：長 = {0}，寬 = {1}，面積為{2}", length, width, (length * width));
+            Console.WriteLine("矩形：長 = {0}，寬 = {1}，面積為 {2}", length, width, (length * width));
             Console.WriteLine();
         }
     }
