@@ -8,7 +8,7 @@ namespace Problem1_player
 {
     class CD : Player
     {
-        public override void display()       // 允許被子類別覆寫
+        public override void display()      
         {
             Console.WriteLine("現在播放的是 音樂 CD");
         }

@@ -26,7 +26,7 @@ namespace Problem1_player
 
                 else if (input == "dvd" || input == "DVD")
                 {
-                    cd.display();
+                    dvd.display();
                 }
 
                 else if (input == "exit" || input == "EXIT" || input == "W" || input == "w")
