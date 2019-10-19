@@ -29,15 +29,24 @@ namespace Hw5_1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int money = int.Parse(textBox_price.Text);  //本金
-            double rate = double.Parse(textBox_rate.Text);   //年利率
-            rate = rate / 100;
-            int year = int.Parse(textBox_year.Text);   //年期
-            int total;     //本利和
-            double total_rate = CompoundInterest(money, rate, year);
-            total = (int)(total_rate * money);
-            string total_string = total.ToString();
-            MessageBox.Show(total_string);
+            if (textBox_price.Text == "" || textBox_rate.Text == "" || textBox_year.Text == "")
+            {
+                MessageBox.Show("輸入錯誤");
+                
+            }
+            else
+            {
+                int money = int.Parse(textBox_price.Text);  //本金
+                double rate = double.Parse(textBox_rate.Text);   //年利率
+                rate = rate / 100;
+                int year = int.Parse(textBox_year.Text);   //年期
+                int total;     //本利和
+                double total_rate = CompoundInterest(money, rate, year);
+                total = (int)(total_rate * money);
+                string total_string = total.ToString();
+                MessageBox.Show(total_string);
+            }
+
         }
     }
 }
