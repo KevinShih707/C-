@@ -44,7 +44,7 @@ namespace Hw5_1
                 double total_rate = CompoundInterest(money, rate, year);
                 total = (int)(total_rate * money);
                 string total_string = total.ToString();
-                MessageBox.Show(total_string);
+                MessageBox.Show("複利金額 : "+total_string);
             }
 
         }

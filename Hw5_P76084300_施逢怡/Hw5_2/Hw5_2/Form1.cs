@@ -41,7 +41,7 @@ namespace Hw5_2
             rec.passwd = "aaa";
             rec.sex = true;
             rec.email = "aaa";
-            userDict.Add("施逢怡", rec);    // 加入第二筆資料到userDict物件中
+            userDict.Add("施逢怡", rec);    // 加入第三筆資料到userDict物件中
         }
 
         private void button_query_Click(object sender, EventArgs e)
