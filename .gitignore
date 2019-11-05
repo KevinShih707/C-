@@ -168,6 +168,7 @@ rcf/
 
 #忽略範例程式
 /Description/ch05/*
+/Description/ch08/*
 
 # Windows Store app package directory
 AppPackages/
