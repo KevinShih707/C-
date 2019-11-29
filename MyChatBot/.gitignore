@@ -140,7 +140,7 @@ publish/
 *.[Pp]ublish.xml
 *.azurePubxml
 
-# TODO: Un-comment the next line if you do not want to checkin
+# TODO: Un-comment the next line if you do not want to checkin 
 # your web deploy settings because they may include unencrypted
 # passwords
 #*.pubxml
@@ -166,13 +166,8 @@ csx/
 ecf/
 rcf/
 
-#忽略範例程式
-/Description/ch05/*
-/Description/ch08/*
-/Description/ch09/*
-/Description/ch10/*
-/Description/ch13/*
-/Description/ch14/*
+# Microsoft Azure ApplicationInsights config file
+ApplicationInsights.config
 
 # Windows Store app package directory
 AppPackages/
