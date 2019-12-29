@@ -24,7 +24,7 @@ namespace EnglishTest
         const int DEPARTMENT_POINT_Y = 35;
         const int DEPARTMENT_WIDTH = 40;
 
-        const string SCHOOL = "NTUT";
+        const string SCHOOL = "NCKU";
         const int SCHOOL_POINT_X = 120;
         const int SCHOOL_POINT_Y = 35;
 
@@ -98,14 +98,14 @@ namespace EnglishTest
         //連接資工系網頁
         void ConnectDepartment(Object sender, EventArgs args)
         {
-            const string DEPARTMENT = "http://csie.ntut.edu.tw/csie/Chinese/index.html";
+            const string DEPARTMENT = "http://www.csie.ncku.edu.tw/ncku_csie/";
             Process.Start(DEPARTMENT);
         }
 
-        //連接北科網頁
+        //連接成大網頁
         void ConnectSchool(Object sender, EventArgs args)
         {
-            const string SCHOOL = "http://ntut.edu.tw/bin/home.php";
+            const string SCHOOL = "https://web.ncku.edu.tw/";
             Process.Start(SCHOOL);
         }
 
