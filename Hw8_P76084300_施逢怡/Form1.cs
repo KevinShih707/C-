@@ -34,7 +34,10 @@ namespace DataAdapterSql
             SqlDataAdapter ap = new SqlDataAdapter
                 ("SELECT 書號,書名,作者,定價 FROM 書目 ORDER BY 定價 DESC", db);
             DataSet ds = new DataSet();
+
             ap.Fill(ds, "書目");
+            DataTable mytable = ds.Tables["書目"];
+            book_author.Text = mytable.Rows[1]["書名"].ToString();
             dataGridView1.DataSource = ds.Tables["書目"];
             db.Close();
         }
@@ -89,6 +92,12 @@ namespace DataAdapterSql
             SqlDataAdapter ap = new SqlDataAdapter
                 ("SELECT 書號,書名,作者,定價 FROM 書目 ORDER BY 定價 DESC", db);
             DataSet ds = new DataSet();
+
+
+            foreach (DataRow myRow in ds.Tables["書號"].Rows)
+            {
+                book_author.Text = myRow["DeptNo"].ToString();
+            }
             ap.Fill(ds, "書目");
             dataGridView1.DataSource = ds.Tables["書目"];
             db.Close();
