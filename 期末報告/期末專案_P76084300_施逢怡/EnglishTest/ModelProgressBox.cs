@@ -31,6 +31,7 @@ namespace EnglishTest
         {
             AnswerDialog form = new AnswerDialog();
             form.ShowDialog(_wrong);
+            _wrong = new string[HUNDRED];
         }
     }
 }
