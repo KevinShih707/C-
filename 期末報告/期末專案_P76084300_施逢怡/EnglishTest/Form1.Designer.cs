@@ -100,7 +100,7 @@
             this._tableLayoutPanel2.Controls.Add(this._radioButton1, 0, 2);
             this._tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this._tableLayoutPanel2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this._tableLayoutPanel2.Location = new System.Drawing.Point(3, 24);
+            this._tableLayoutPanel2.Location = new System.Drawing.Point(3, 20);
             this._tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._tableLayoutPanel2.Name = "_tableLayoutPanel2";
             this._tableLayoutPanel2.RowCount = 6;
@@ -110,7 +110,7 @@
             this._tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.77852F));
             this._tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.77852F));
             this._tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.10738F));
-            this._tableLayoutPanel2.Size = new System.Drawing.Size(428, 320);
+            this._tableLayoutPanel2.Size = new System.Drawing.Size(380, 266);
             this._tableLayoutPanel2.TabIndex = 0;
             // 
             // _type2
@@ -120,7 +120,7 @@
             this._type2.Dock = System.Windows.Forms.DockStyle.Fill;
             this._type2.Location = new System.Drawing.Point(3, 0);
             this._type2.Name = "_type2";
-            this._type2.Size = new System.Drawing.Size(422, 53);
+            this._type2.Size = new System.Drawing.Size(374, 44);
             this._type2.TabIndex = 7;
             this._type2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -129,10 +129,10 @@
             this._radioButton2.AutoSize = true;
             this._tableLayoutPanel2.SetColumnSpan(this._radioButton2, 2);
             this._radioButton2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._radioButton2.Location = new System.Drawing.Point(3, 161);
+            this._radioButton2.Location = new System.Drawing.Point(3, 134);
             this._radioButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._radioButton2.Name = "_radioButton2";
-            this._radioButton2.Size = new System.Drawing.Size(422, 49);
+            this._radioButton2.Size = new System.Drawing.Size(374, 40);
             this._radioButton2.TabIndex = 9;
             this._radioButton2.UseVisualStyleBackColor = true;
             // 
@@ -141,10 +141,10 @@
             this._radioButton3.AutoSize = true;
             this._tableLayoutPanel2.SetColumnSpan(this._radioButton3, 2);
             this._radioButton3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._radioButton3.Location = new System.Drawing.Point(3, 214);
+            this._radioButton3.Location = new System.Drawing.Point(3, 178);
             this._radioButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._radioButton3.Name = "_radioButton3";
-            this._radioButton3.Size = new System.Drawing.Size(422, 49);
+            this._radioButton3.Size = new System.Drawing.Size(374, 40);
             this._radioButton3.TabIndex = 10;
             this._radioButton3.UseVisualStyleBackColor = true;
             // 
@@ -153,10 +153,10 @@
             this._radioButton4.AutoSize = true;
             this._tableLayoutPanel2.SetColumnSpan(this._radioButton4, 2);
             this._radioButton4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._radioButton4.Location = new System.Drawing.Point(3, 267);
+            this._radioButton4.Location = new System.Drawing.Point(3, 222);
             this._radioButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._radioButton4.Name = "_radioButton4";
-            this._radioButton4.Size = new System.Drawing.Size(422, 51);
+            this._radioButton4.Size = new System.Drawing.Size(374, 42);
             this._radioButton4.TabIndex = 11;
             this._radioButton4.UseVisualStyleBackColor = true;
             // 
@@ -165,9 +165,9 @@
             this._question2.AutoSize = true;
             this._tableLayoutPanel2.SetColumnSpan(this._question2, 2);
             this._question2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._question2.Location = new System.Drawing.Point(3, 53);
+            this._question2.Location = new System.Drawing.Point(3, 44);
             this._question2.Name = "_question2";
-            this._question2.Size = new System.Drawing.Size(422, 53);
+            this._question2.Size = new System.Drawing.Size(374, 44);
             this._question2.TabIndex = 12;
             this._question2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -176,21 +176,21 @@
             this._radioButton1.AutoSize = true;
             this._tableLayoutPanel2.SetColumnSpan(this._radioButton1, 2);
             this._radioButton1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._radioButton1.Location = new System.Drawing.Point(3, 108);
+            this._radioButton1.Location = new System.Drawing.Point(3, 90);
             this._radioButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._radioButton1.Name = "_radioButton1";
-            this._radioButton1.Size = new System.Drawing.Size(422, 49);
+            this._radioButton1.Size = new System.Drawing.Size(374, 40);
             this._radioButton1.TabIndex = 8;
             this._radioButton1.UseVisualStyleBackColor = true;
             // 
             // _groupBox2
             // 
             this._groupBox2.Controls.Add(this._tableLayoutPanel2);
-            this._groupBox2.Location = new System.Drawing.Point(282, 33);
+            this._groupBox2.Location = new System.Drawing.Point(251, 27);
             this._groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._groupBox2.Name = "_groupBox2";
             this._groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this._groupBox2.Size = new System.Drawing.Size(434, 346);
+            this._groupBox2.Size = new System.Drawing.Size(386, 288);
             this._groupBox2.TabIndex = 3;
             this._groupBox2.TabStop = false;
             this._groupBox2.Visible = false;
@@ -208,25 +208,25 @@
             this._tableLayoutPanel1.Controls.Add(this._answer, 1, 2);
             this._tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this._tableLayoutPanel1.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this._tableLayoutPanel1.Location = new System.Drawing.Point(3, 24);
+            this._tableLayoutPanel1.Location = new System.Drawing.Point(3, 20);
             this._tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._tableLayoutPanel1.Name = "_tableLayoutPanel1";
             this._tableLayoutPanel1.RowCount = 3;
             this._tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this._tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this._tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this._tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-            this._tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-            this._tableLayoutPanel1.Size = new System.Drawing.Size(625, 293);
+            this._tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this._tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this._tableLayoutPanel1.Size = new System.Drawing.Size(555, 244);
             this._tableLayoutPanel1.TabIndex = 0;
             // 
             // _labelChinese
             // 
             this._labelChinese.AutoSize = true;
             this._labelChinese.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._labelChinese.Location = new System.Drawing.Point(3, 97);
+            this._labelChinese.Location = new System.Drawing.Point(3, 81);
             this._labelChinese.Name = "_labelChinese";
-            this._labelChinese.Size = new System.Drawing.Size(119, 97);
+            this._labelChinese.Size = new System.Drawing.Size(105, 81);
             this._labelChinese.TabIndex = 0;
             this._labelChinese.Text = "Chinese";
             this._labelChinese.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -235,9 +235,9 @@
             // 
             this._labelEnglish.AutoSize = true;
             this._labelEnglish.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._labelEnglish.Location = new System.Drawing.Point(3, 194);
+            this._labelEnglish.Location = new System.Drawing.Point(3, 162);
             this._labelEnglish.Name = "_labelEnglish";
-            this._labelEnglish.Size = new System.Drawing.Size(119, 99);
+            this._labelEnglish.Size = new System.Drawing.Size(105, 82);
             this._labelEnglish.TabIndex = 1;
             this._labelEnglish.Text = "English";
             this._labelEnglish.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -247,9 +247,9 @@
             this._question.AutoSize = true;
             this._tableLayoutPanel1.SetColumnSpan(this._question, 2);
             this._question.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._question.Location = new System.Drawing.Point(128, 97);
+            this._question.Location = new System.Drawing.Point(114, 81);
             this._question.Name = "_question";
-            this._question.Size = new System.Drawing.Size(494, 97);
+            this._question.Size = new System.Drawing.Size(438, 81);
             this._question.TabIndex = 2;
             this._question.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this._question.Click += new System.EventHandler(this._question_Click);
@@ -261,7 +261,7 @@
             this._type.Dock = System.Windows.Forms.DockStyle.Fill;
             this._type.Location = new System.Drawing.Point(3, 0);
             this._type.Name = "_type";
-            this._type.Size = new System.Drawing.Size(369, 97);
+            this._type.Size = new System.Drawing.Size(327, 81);
             this._type.TabIndex = 7;
             this._type.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -269,18 +269,18 @@
             // 
             this._tableLayoutPanel1.SetColumnSpan(this._answer, 2);
             this._answer.Enabled = false;
-            this._answer.Location = new System.Drawing.Point(128, 196);
+            this._answer.Location = new System.Drawing.Point(114, 164);
             this._answer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._answer.Name = "_answer";
-            this._answer.Size = new System.Drawing.Size(274, 36);
+            this._answer.Size = new System.Drawing.Size(244, 31);
             this._answer.TabIndex = 3;
             // 
             // _check
             // 
             this._check.AutoSize = true;
-            this._check.Location = new System.Drawing.Point(19, 411);
+            this._check.Location = new System.Drawing.Point(17, 342);
             this._check.Name = "_check";
-            this._check.Size = new System.Drawing.Size(0, 18);
+            this._check.Size = new System.Drawing.Size(0, 15);
             this._check.TabIndex = 6;
             this._check.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -290,10 +290,10 @@
             this._next.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this._next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this._next.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this._next.Location = new System.Drawing.Point(414, 424);
+            this._next.Location = new System.Drawing.Point(368, 353);
             this._next.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._next.Name = "_next";
-            this._next.Size = new System.Drawing.Size(105, 45);
+            this._next.Size = new System.Drawing.Size(93, 37);
             this._next.TabIndex = 5;
             this._next.Text = "Next";
             this._next.UseVisualStyleBackColor = true;
@@ -304,10 +304,10 @@
             this._start.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this._start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this._start.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this._start.Location = new System.Drawing.Point(267, 424);
+            this._start.Location = new System.Drawing.Point(237, 353);
             this._start.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._start.Name = "_start";
-            this._start.Size = new System.Drawing.Size(105, 45);
+            this._start.Size = new System.Drawing.Size(93, 37);
             this._start.TabIndex = 4;
             this._start.Text = "Start";
             this._start.UseVisualStyleBackColor = true;
@@ -316,11 +316,11 @@
             // _groupBox1
             // 
             this._groupBox1.Controls.Add(this._tableLayoutPanel1);
-            this._groupBox1.Location = new System.Drawing.Point(191, 58);
+            this._groupBox1.Location = new System.Drawing.Point(170, 48);
             this._groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._groupBox1.Name = "_groupBox1";
             this._groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this._groupBox1.Size = new System.Drawing.Size(631, 319);
+            this._groupBox1.Size = new System.Drawing.Size(561, 266);
             this._groupBox1.TabIndex = 7;
             this._groupBox1.TabStop = false;
             this._groupBox1.Visible = false;
@@ -329,10 +329,10 @@
             // 
             this._stop.Enabled = false;
             this._stop.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this._stop.Location = new System.Drawing.Point(564, 424);
+            this._stop.Location = new System.Drawing.Point(501, 353);
             this._stop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._stop.Name = "_stop";
-            this._stop.Size = new System.Drawing.Size(105, 45);
+            this._stop.Size = new System.Drawing.Size(93, 37);
             this._stop.TabIndex = 8;
             this._stop.Text = "Stop";
             this._stop.UseVisualStyleBackColor = true;
@@ -347,7 +347,8 @@
             this._helpToolStripMenuItem});
             this._menuStrip1.Location = new System.Drawing.Point(0, 0);
             this._menuStrip1.Name = "_menuStrip1";
-            this._menuStrip1.Size = new System.Drawing.Size(1061, 31);
+            this._menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this._menuStrip1.Size = new System.Drawing.Size(943, 27);
             this._menuStrip1.TabIndex = 9;
             this._menuStrip1.Text = "menuStrip1";
             // 
@@ -356,13 +357,13 @@
             this._fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this._exitToolStripMenuItem});
             this._fileToolStripMenuItem.Name = "_fileToolStripMenuItem";
-            this._fileToolStripMenuItem.Size = new System.Drawing.Size(51, 27);
+            this._fileToolStripMenuItem.Size = new System.Drawing.Size(45, 23);
             this._fileToolStripMenuItem.Text = "File";
             // 
             // _exitToolStripMenuItem
             // 
             this._exitToolStripMenuItem.Name = "_exitToolStripMenuItem";
-            this._exitToolStripMenuItem.Size = new System.Drawing.Size(123, 30);
+            this._exitToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this._exitToolStripMenuItem.Text = "Exit";
             this._exitToolStripMenuItem.Click += new System.EventHandler(this.ExitClick);
             // 
@@ -376,14 +377,14 @@
             this._numberOfQuestionsToolStripMenuItem,
             this._questionTypeToolStripMenuItem});
             this._examToolStripMenuItem.Name = "_examToolStripMenuItem";
-            this._examToolStripMenuItem.Size = new System.Drawing.Size(128, 27);
+            this._examToolStripMenuItem.Size = new System.Drawing.Size(106, 23);
             this._examToolStripMenuItem.Text = "Examination";
             // 
             // _startToolStripMenuItem
             // 
             this._startToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("_startToolStripMenuItem.Image")));
             this._startToolStripMenuItem.Name = "_startToolStripMenuItem";
-            this._startToolStripMenuItem.Size = new System.Drawing.Size(276, 30);
+            this._startToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
             this._startToolStripMenuItem.Text = "Start";
             // 
             // _nextToolStripMenuItem
@@ -391,7 +392,7 @@
             this._nextToolStripMenuItem.Enabled = false;
             this._nextToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("_nextToolStripMenuItem.Image")));
             this._nextToolStripMenuItem.Name = "_nextToolStripMenuItem";
-            this._nextToolStripMenuItem.Size = new System.Drawing.Size(276, 30);
+            this._nextToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
             this._nextToolStripMenuItem.Text = "Next";
             // 
             // _stopToolStripMenuItem
@@ -399,13 +400,13 @@
             this._stopToolStripMenuItem.Enabled = false;
             this._stopToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("_stopToolStripMenuItem.Image")));
             this._stopToolStripMenuItem.Name = "_stopToolStripMenuItem";
-            this._stopToolStripMenuItem.Size = new System.Drawing.Size(276, 30);
+            this._stopToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
             this._stopToolStripMenuItem.Text = "Stop";
             // 
             // _toolStripSeparator1
             // 
             this._toolStripSeparator1.Name = "_toolStripSeparator1";
-            this._toolStripSeparator1.Size = new System.Drawing.Size(273, 6);
+            this._toolStripSeparator1.Size = new System.Drawing.Size(231, 6);
             // 
             // _numberOfQuestionsToolStripMenuItem
             // 
@@ -414,27 +415,27 @@
             this._twentyQuestionsToolStripMenuItem,
             this._fiftyQuestionsToolStripMenuItem});
             this._numberOfQuestionsToolStripMenuItem.Name = "_numberOfQuestionsToolStripMenuItem";
-            this._numberOfQuestionsToolStripMenuItem.Size = new System.Drawing.Size(276, 30);
+            this._numberOfQuestionsToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
             this._numberOfQuestionsToolStripMenuItem.Text = "Number of Questions";
             // 
             // _tenQuestionsToolStripMenuItem
             // 
             this._tenQuestionsToolStripMenuItem.Name = "_tenQuestionsToolStripMenuItem";
-            this._tenQuestionsToolStripMenuItem.Size = new System.Drawing.Size(203, 30);
+            this._tenQuestionsToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
             this._tenQuestionsToolStripMenuItem.Text = "10 Questions";
             this._tenQuestionsToolStripMenuItem.Click += new System.EventHandler(this.ChooseTenQuestions);
             // 
             // _twentyQuestionsToolStripMenuItem
             // 
             this._twentyQuestionsToolStripMenuItem.Name = "_twentyQuestionsToolStripMenuItem";
-            this._twentyQuestionsToolStripMenuItem.Size = new System.Drawing.Size(203, 30);
+            this._twentyQuestionsToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
             this._twentyQuestionsToolStripMenuItem.Text = "20 Questions";
             this._twentyQuestionsToolStripMenuItem.Click += new System.EventHandler(this.ChooseTwentyQuestions);
             // 
             // _fiftyQuestionsToolStripMenuItem
             // 
             this._fiftyQuestionsToolStripMenuItem.Name = "_fiftyQuestionsToolStripMenuItem";
-            this._fiftyQuestionsToolStripMenuItem.Size = new System.Drawing.Size(203, 30);
+            this._fiftyQuestionsToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
             this._fiftyQuestionsToolStripMenuItem.Text = "50 Questions";
             this._fiftyQuestionsToolStripMenuItem.Click += new System.EventHandler(this.ChooseFiftyQuestions);
             // 
@@ -445,27 +446,27 @@
             this._multipleToolStripMenuItem,
             this._randomToolStripMenuItem});
             this._questionTypeToolStripMenuItem.Name = "_questionTypeToolStripMenuItem";
-            this._questionTypeToolStripMenuItem.Size = new System.Drawing.Size(276, 30);
+            this._questionTypeToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
             this._questionTypeToolStripMenuItem.Text = "Question Type";
             // 
             // _allFillInTheToolStripMenuItem
             // 
             this._allFillInTheToolStripMenuItem.Name = "_allFillInTheToolStripMenuItem";
-            this._allFillInTheToolStripMenuItem.Size = new System.Drawing.Size(340, 30);
+            this._allFillInTheToolStripMenuItem.Size = new System.Drawing.Size(285, 26);
             this._allFillInTheToolStripMenuItem.Text = "All fill in the blank questions";
             this._allFillInTheToolStripMenuItem.Click += new System.EventHandler(this.PickFillInMenu);
             // 
             // _multipleToolStripMenuItem
             // 
             this._multipleToolStripMenuItem.Name = "_multipleToolStripMenuItem";
-            this._multipleToolStripMenuItem.Size = new System.Drawing.Size(340, 30);
+            this._multipleToolStripMenuItem.Size = new System.Drawing.Size(285, 26);
             this._multipleToolStripMenuItem.Text = "All multiple-choice questions";
             this._multipleToolStripMenuItem.Click += new System.EventHandler(this.PickMultipleInMenu);
             // 
             // _randomToolStripMenuItem
             // 
             this._randomToolStripMenuItem.Name = "_randomToolStripMenuItem";
-            this._randomToolStripMenuItem.Size = new System.Drawing.Size(340, 30);
+            this._randomToolStripMenuItem.Size = new System.Drawing.Size(285, 26);
             this._randomToolStripMenuItem.Text = "Pick up questions randomly";
             this._randomToolStripMenuItem.Click += new System.EventHandler(this.PickRandomInMenu);
             // 
@@ -475,20 +476,20 @@
             this._aboutDictionaryToolStripMenuItem,
             this._aboutSpellingCheckerToolStripMenuItem});
             this._helpToolStripMenuItem.Name = "_helpToolStripMenuItem";
-            this._helpToolStripMenuItem.Size = new System.Drawing.Size(62, 27);
+            this._helpToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
             this._helpToolStripMenuItem.Text = "Help";
             // 
             // _aboutDictionaryToolStripMenuItem
             // 
             this._aboutDictionaryToolStripMenuItem.Name = "_aboutDictionaryToolStripMenuItem";
-            this._aboutDictionaryToolStripMenuItem.Size = new System.Drawing.Size(291, 30);
+            this._aboutDictionaryToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
             this._aboutDictionaryToolStripMenuItem.Text = "About Dictionary";
             this._aboutDictionaryToolStripMenuItem.Click += new System.EventHandler(this.GetNumberOfWord);
             // 
             // _aboutSpellingCheckerToolStripMenuItem
             // 
             this._aboutSpellingCheckerToolStripMenuItem.Name = "_aboutSpellingCheckerToolStripMenuItem";
-            this._aboutSpellingCheckerToolStripMenuItem.Size = new System.Drawing.Size(291, 30);
+            this._aboutSpellingCheckerToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
             this._aboutSpellingCheckerToolStripMenuItem.Text = "About Spelling Checker";
             this._aboutSpellingCheckerToolStripMenuItem.Click += new System.EventHandler(this.GetRelatedInformation);
             // 
@@ -496,11 +497,11 @@
             // 
             this._groupBox3.Controls.Add(this._tableLayoutPanel3);
             this._groupBox3.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this._groupBox3.Location = new System.Drawing.Point(191, 112);
+            this._groupBox3.Location = new System.Drawing.Point(170, 93);
             this._groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._groupBox3.Name = "_groupBox3";
             this._groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this._groupBox3.Size = new System.Drawing.Size(669, 173);
+            this._groupBox3.Size = new System.Drawing.Size(595, 144);
             this._groupBox3.TabIndex = 10;
             this._groupBox3.TabStop = false;
             this._groupBox3.Text = "Customize Your Examination";
@@ -512,16 +513,16 @@
             this._tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this._tableLayoutPanel3.Controls.Add(this._numberOfQuestions, 0, 0);
             this._tableLayoutPanel3.Controls.Add(this._questionType, 0, 1);
-            this._tableLayoutPanel3.Controls.Add(this._numericUpDown1, 1, 0);
             this._tableLayoutPanel3.Controls.Add(this._comboBox1, 1, 1);
+            this._tableLayoutPanel3.Controls.Add(this._numericUpDown1, 1, 0);
             this._tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._tableLayoutPanel3.Location = new System.Drawing.Point(3, 31);
+            this._tableLayoutPanel3.Location = new System.Drawing.Point(3, 26);
             this._tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._tableLayoutPanel3.Name = "_tableLayoutPanel3";
             this._tableLayoutPanel3.RowCount = 2;
             this._tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this._tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this._tableLayoutPanel3.Size = new System.Drawing.Size(663, 140);
+            this._tableLayoutPanel3.Size = new System.Drawing.Size(589, 116);
             this._tableLayoutPanel3.TabIndex = 0;
             // 
             // _numberOfQuestions
@@ -530,7 +531,7 @@
             this._numberOfQuestions.Dock = System.Windows.Forms.DockStyle.Fill;
             this._numberOfQuestions.Location = new System.Drawing.Point(3, 0);
             this._numberOfQuestions.Name = "_numberOfQuestions";
-            this._numberOfQuestions.Size = new System.Drawing.Size(259, 70);
+            this._numberOfQuestions.Size = new System.Drawing.Size(229, 58);
             this._numberOfQuestions.TabIndex = 0;
             this._numberOfQuestions.Text = "Number of questions";
             this._numberOfQuestions.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -539,9 +540,9 @@
             // 
             this._questionType.AutoSize = true;
             this._questionType.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._questionType.Location = new System.Drawing.Point(3, 70);
+            this._questionType.Location = new System.Drawing.Point(3, 58);
             this._questionType.Name = "_questionType";
-            this._questionType.Size = new System.Drawing.Size(259, 70);
+            this._questionType.Size = new System.Drawing.Size(229, 58);
             this._questionType.TabIndex = 1;
             this._questionType.Text = "Question Type";
             this._questionType.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -550,11 +551,10 @@
             // _numericUpDown1
             // 
             this._numericUpDown1.AccessibleName = "_numericUpDown1";
-            this._numericUpDown1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._numericUpDown1.Location = new System.Drawing.Point(268, 2);
+            this._numericUpDown1.Location = new System.Drawing.Point(238, 2);
             this._numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._numericUpDown1.Name = "_numericUpDown1";
-            this._numericUpDown1.Size = new System.Drawing.Size(392, 36);
+            this._numericUpDown1.Size = new System.Drawing.Size(348, 31);
             this._numericUpDown1.TabIndex = 2;
             this._numericUpDown1.Value = new decimal(new int[] {
             10,
@@ -571,10 +571,10 @@
             "Pick up questions ramdomly",
             "All fill in the blank questions",
             "All multiple-choice questions"});
-            this._comboBox1.Location = new System.Drawing.Point(268, 72);
+            this._comboBox1.Location = new System.Drawing.Point(238, 60);
             this._comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._comboBox1.Name = "_comboBox1";
-            this._comboBox1.Size = new System.Drawing.Size(392, 32);
+            this._comboBox1.Size = new System.Drawing.Size(348, 28);
             this._comboBox1.TabIndex = 3;
             this._comboBox1.Text = "Pick up questions ramdomly";
             // 
@@ -582,28 +582,28 @@
             // 
             this._watch.AutoSize = true;
             this._watch.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this._watch.Location = new System.Drawing.Point(688, 495);
+            this._watch.Location = new System.Drawing.Point(612, 424);
             this._watch.Name = "_watch";
-            this._watch.Size = new System.Drawing.Size(96, 24);
+            this._watch.Size = new System.Drawing.Size(81, 20);
             this._watch.TabIndex = 11;
             this._watch.Text = "00:00:00";
             this._watch.Click += new System.EventHandler(this._watch_Click);
             // 
             // _progressBar
             // 
-            this._progressBar.Location = new System.Drawing.Point(267, 495);
+            this._progressBar.Location = new System.Drawing.Point(237, 412);
             this._progressBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this._progressBar.Name = "_progressBar";
-            this._progressBar.Size = new System.Drawing.Size(388, 38);
+            this._progressBar.Size = new System.Drawing.Size(357, 32);
             this._progressBar.TabIndex = 12;
             // 
             // _score
             // 
             this._score.AutoSize = true;
             this._score.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this._score.Location = new System.Drawing.Point(756, 434);
+            this._score.Location = new System.Drawing.Point(685, 361);
             this._score.Name = "_score";
-            this._score.Size = new System.Drawing.Size(46, 24);
+            this._score.Size = new System.Drawing.Size(39, 20);
             this._score.TabIndex = 13;
             this._score.Text = "100";
             // 
@@ -611,18 +611,18 @@
             // 
             this._scoreLabel.AutoSize = true;
             this._scoreLabel.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this._scoreLabel.Location = new System.Drawing.Point(676, 434);
+            this._scoreLabel.Location = new System.Drawing.Point(618, 361);
             this._scoreLabel.Name = "_scoreLabel";
-            this._scoreLabel.Size = new System.Drawing.Size(74, 24);
+            this._scoreLabel.Size = new System.Drawing.Size(61, 20);
             this._scoreLabel.TabIndex = 14;
             this._scoreLabel.Text = "Score:";
             // 
             // FormOne
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1061, 567);
+            this.ClientSize = new System.Drawing.Size(943, 472);
             this.Controls.Add(this._scoreLabel);
             this.Controls.Add(this._score);
             this.Controls.Add(this._progressBar);
